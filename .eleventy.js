@@ -1,11 +1,8 @@
-const Eleventy = require("@11ty/eleventy");
-
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy('src/css')
 
   return {
-    version: Eleventy.getVersion(),
     passthroughFileCopy: true,
     markdownTemplateEngine: 'njk',
     templateFormats: ['html', 'njk', 'md'],
