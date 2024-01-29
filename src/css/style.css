@@ -11,3 +11,7 @@ html {
 .page-header {
   display: flex;
 }
+
+.page-footer {
+  display: flex;
+}
